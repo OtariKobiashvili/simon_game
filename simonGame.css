@@ -1,0 +1,190 @@
+body {
+	background-color: #9099A2;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.page-name {
+	font-size: 5em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Neucha', cursive;
+}
+.page-name strong{
+	text-decoration: underline;
+}
+.small {
+	font-size: 40%;
+	position: relative;
+	bottom: 20px;
+}
+.first-circle {
+	background-color: rgba(61,215,75,.4);
+	width: 220px;
+	height: 220px;
+	border-top-left-radius: 100%;
+	border-left: 4px solid #3B3738;
+	border-top: 4px solid #3B3738;
+}
+.second-circle {
+	background-color: rgba(245,20,2,.4);
+	width: 220px;
+	height: 220px;
+	border-top-right-radius: 100%;
+	border-right: 4px solid #3B3738;
+	border-top: 4px solid #3B3738;
+	position: relative;
+	right: 15px;
+}
+.third-circle {
+	background-color: rgba(255,252,0,.4);
+	width: 220px;
+	height: 220px;
+	border-bottom-left-radius: 100%;
+	border-left: 4px solid #3B3738;
+	border-bottom: 4px solid #3B3738;
+	position: relative;
+	bottom: 250px;
+}
+.fourth-circle {
+	background-color: rgba(0,125,235,.4);
+	width: 220px;
+	height: 220px;
+	border-bottom-right-radius: 100%;
+	border-right: 4px solid #3B3738;
+	border-bottom: 4px solid #3B3738;
+	position: relative;
+	right: 15px;
+	bottom: 250px;
+}
+.controls{
+	background-color: #dcdcdc;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	bottom: 126px;
+	border: 2px solid #3B3738;
+}
+.controls .row {
+	max-width: 220px;
+}
+.title {
+	position: relative;
+	top: 25px;
+	left: 30px;
+}
+.count {
+	width: 65px;
+	height: 45px;
+	position: relative;
+	top: 40px;
+	left: 17px;
+	border-radius: 10px;
+	border: 3px solid #3B3738;
+	background-color: rgba(0,0,0,.8);
+}
+#current-count {
+	font-size: 1.7em;
+	font-family: 'VT323', monospace;
+	color: rgba(255,255,255,.1);
+}
+.button {
+	width: 30px;
+	height: 30px;
+	border: 3px solid #3B3738;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0px 2px 3px #222;
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+.button:active {
+	box-shadow: none;
+	top: 2px;
+}
+.start {
+	left: 7px;
+	background-color: red;
+}
+.strict {
+	left: 6.5px;
+	background-color: grey;
+}
+.label {
+	font-size: .75rem;
+	display: block;
+}
+.btn-box{
+	top: 44px;
+	position: relative;
+}
+.btn-box-one{
+	left: 20px;
+}
+.btn-box-two {
+	left: 37px;
+}
+.power {
+	position: relative;
+	top: 35px;
+	left: 27px;
+	border-bottom-left-radius: 100%
+}
+.power-switch {
+	background-color: darkblue;
+	height: 45px;
+	width: 25px;
+	position: relative;
+	left: 46px;
+	bottom:	5px;
+	border: 2px solid #3B3738;
+	border-radius: 5px;
+}
+.power-btn {
+	width: 21px;
+	height: 21px;
+	border-radius: 3px;
+	background-color: skyblue;
+	position: relative;
+	top: 20px;
+	cursor: pointer;
+}
+.power-on{
+	top: 0px;
+}
+.wrapper {
+	margin: 75px auto;
+	width: 440px;
+	height: 440px;
+	background-color: grey;
+	border-radius: 50%;
+	box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 520px){
+	.wrapper {
+		height: 320px;
+		width: 320px;
+	}
+	.first-circle {
+		width: 160px;
+		height: 160px;
+	}	
+	.second-circle {
+		width: 160px;
+		height: 160px;
+	}	
+	.third-circle {
+		width: 160px;
+		height: 160px;
+	}
+	.fourth-circle {
+		width: 160px;
+		height: 160px;
+	}
+}
